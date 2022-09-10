@@ -1,0 +1,7 @@
+{
+ "values":[
+   "nucleus:technical/load",
+   "nucleus:technical/second_clock/main",
+   "nucleus:technical/ten_second_clock"
+  ]
+}

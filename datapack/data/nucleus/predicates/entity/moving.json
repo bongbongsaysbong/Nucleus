@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:entity/moving/slow_falling"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:entity/moving/no_slow_falling"
+    }
+  ]
+}
