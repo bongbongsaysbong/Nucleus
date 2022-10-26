@@ -1,5 +1,11 @@
 [
   {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:overworld"
+    }
+  },
+  {
     "condition": "minecraft:reference",
     "name": "nucleus:entity/has_skylight"
   },
