@@ -1,0 +1,15 @@
+{
+    "block.barrel.open": {
+      "sounds": [
+        "block/barrel/open1",
+        "block/barrel/open2"
+      ],
+      "subtitle": "subtitles.block.barrel.open"
+    },
+    "block.barrel.close": {
+      "sounds": [
+        "block/barrel/close"
+      ],
+      "subtitle": "subtitles.block.barrel.close"
+    }
+}

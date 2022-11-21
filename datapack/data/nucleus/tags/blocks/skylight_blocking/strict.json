@@ -1,6 +1,6 @@
 {
     "values": [
-        "#nucleus:skylight",
+        "#nucleus:skylight_blocking/regular",
         "minecraft:oak_leaves",
         "minecraft:spruce_leaves",
         "minecraft:birch_leaves",

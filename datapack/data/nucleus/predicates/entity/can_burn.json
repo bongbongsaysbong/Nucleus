@@ -24,7 +24,7 @@
     "condition": "minecraft:inverted",
     "term": {
       "condition": "minecraft:reference",
-      "name": "nucleus:raining"
+      "name": "nucleus:world/raining"
     }
   },
   {

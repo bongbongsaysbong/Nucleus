@@ -1,0 +1,18 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{nucleus:{illegal_item:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nucleus:item/clear_illegal_item"
+  }
+}

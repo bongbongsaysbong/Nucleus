@@ -1,0 +1,18 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nucleus:item/shield"
+  }
+}

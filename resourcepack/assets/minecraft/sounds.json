@@ -1,7 +1,17 @@
 {
     "block.chest.locked": {
-        "replace": true,
-        "sounds": [],
-        "subititles": ""
+      "replace": true,
+      "sounds": [],
+      "subtitle": ""
+    },
+    "block.barrel.open": {
+      "replace": true,
+      "sounds": [],
+      "subtitle": ""
+    },
+    "block.barrel.close": {
+      "replace": true,
+      "sounds": [],
+      "subtitle": ""
     }
 }

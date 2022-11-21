@@ -1,11 +1,12 @@
 # Debug
-msg HingeDH Nucleus reloaded
+msg VisiVersa Nucleus reloaded
 
 # Objectives
 scoreboard objectives add nucleus.dummy dummy
 scoreboard objectives add nucleus.frames dummy
 scoreboard objectives add nucleus.potion_colour dummy
 scoreboard objectives add nucleus.footstep dummy
+scoreboard objectives add nucleus.using_shield dummy
 scoreboard objectives add nucleus.carrot_on_a_stick minecraft.used:minecraft.carrot_on_a_stick
 
 # Constants
