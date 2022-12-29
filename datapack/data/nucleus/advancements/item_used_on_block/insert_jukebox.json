@@ -1,0 +1,27 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:music_discs",
+          "nbt": "{nucleus:{custom_disc:1b}}"
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ],
+            "state": {
+              "has_record": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nucleus:block/jukebox/locate/main"
+  }
+}

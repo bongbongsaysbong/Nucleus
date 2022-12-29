@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "nucleus:storage"
+    },
+    "ops": [
+      {
+        "source": "root.temp.item.tag",
+        "target": "{}",
+        "op": "merge"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "item.durability",
+        "with": [
+          {
+            "nbt": "root.temp.item.tag.nucleus.durability[0]",
+            "storage": "nucleus:storage"
+          },
+          {
+            "nbt": "root.temp.item.tag.nucleus.durability[1]",
+            "storage": "nucleus:storage"
+          }
+        ],
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

@@ -1,10 +1,10 @@
 {
    "pack":{
-      "pack_format": 9,
+      "pack_format": 12,
       "description": [
 		{"text":"Nucleus","color":"#78f542"},
-		{"text":" | ","color":"#b1e09d"},
-		{"text":"v0.1.1","color":"#cbdba9"}
+		{"text":" | ","color":"#a7b5a1"},
+		{"text":"v0.1.2","color":"#cbdba9"}
 	  ]
    }
 }

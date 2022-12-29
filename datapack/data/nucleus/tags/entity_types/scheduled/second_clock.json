@@ -1,6 +1,8 @@
 {
     "values":[
         "#nucleus:groups/default_allowed",
-        "#nucleus:needs_processing"
+        "#nucleus:needs_processing",
+        "minecraft:iron_golem",
+        "minecraft:strider"
     ]
 }

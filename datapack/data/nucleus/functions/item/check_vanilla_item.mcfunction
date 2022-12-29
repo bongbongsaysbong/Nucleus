@@ -15,6 +15,7 @@ data remove storage nucleus:storage root.temp.item.tag.ChargedProjectiles
 data remove storage nucleus:storage root.temp.item.tag.BlockEntityTag
 data remove storage nucleus:storage root.temp.item.tag.Items
 data remove storage nucleus:storage root.temp.item.tag.Potion
+data remove storage nucleus:storage root.temp.item.tag.CustomPotionColor
 
 execute if data storage nucleus:storage root.temp.item.tag.nucleus{vanilla_item:1b} run scoreboard players set #bypass nucleus.dummy 1
 execute store success score #check nucleus.dummy if data storage nucleus:storage root.temp.item.tag run data modify storage nucleus:storage root.temp.item.tag set value {}

@@ -1,0 +1,9 @@
+{
+  "item.minecraft.knowledge_book": "§f配方输出",
+
+  "pack.nucleus": "Nucleus",
+  "pack.nucleus.install": "%s v%s 安装成功\n\n安装包:",
+  "pack.nucleus.addition": "- %s v%s (%s | %s)",
+  "pack.nucleus.addition.gamerules": "游戏规则",
+  "pack.nucleus.addition.wiki": "Wiki"
+}

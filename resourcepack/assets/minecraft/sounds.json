@@ -1,17 +1,32 @@
 {
-    "block.chest.locked": {
-      "replace": true,
-      "sounds": [],
-      "subtitle": ""
-    },
-    "block.barrel.open": {
-      "replace": true,
-      "sounds": [],
-      "subtitle": ""
-    },
-    "block.barrel.close": {
-      "replace": true,
-      "sounds": [],
-      "subtitle": ""
-    }
+  "block.chest.locked": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "block.barrel.open": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "block.barrel.close": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "item.armor.equip_leather": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "item.armor.equip_diamond": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+  "item.armor.equip_netherite": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  }
 }

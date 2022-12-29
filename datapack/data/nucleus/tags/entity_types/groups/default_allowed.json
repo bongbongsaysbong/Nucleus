@@ -1,6 +1,7 @@
 {
     "values":[
         "#nucleus:groups/zombie_entity",
-        "minecraft:wandering_trader"
+        "minecraft:wandering_trader",
+        "minecraft:marker"
     ]
 }

@@ -1,15 +1,46 @@
 {
-    "block.barrel.open": {
-      "sounds": [
-        "block/barrel/open1",
-        "block/barrel/open2"
-      ],
-      "subtitle": "subtitles.block.barrel.open"
-    },
-    "block.barrel.close": {
-      "sounds": [
-        "block/barrel/close"
-      ],
-      "subtitle": "subtitles.block.barrel.close"
-    }
+  "block.barrel.open": {
+    "sounds": [
+      "block/barrel/open1",
+      "block/barrel/open2"
+    ],
+    "subtitle": "subtitles.block.barrel.open"
+  },
+  "block.barrel.close": {
+    "sounds": [
+      "block/barrel/close"
+    ],
+    "subtitle": "subtitles.block.barrel.close"
+  },
+  "item.armor.equip_leather": {
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_leather"
+  },
+  "item.armor.equip_diamond": {
+    "sounds": [
+      "item/armor/equip_diamond1",
+      "item/armor/equip_diamond2",
+      "item/armor/equip_diamond3",
+      "item/armor/equip_diamond4",
+      "item/armor/equip_diamond5",
+      "item/armor/equip_diamond6"
+    ],
+    "subtitle": "subtitles.item.armor.equip_diamond"
+  },
+  "item.armor.equip_netherite": {
+    "sounds": [
+      "item/armor/equip_netherite1",
+      "item/armor/equip_netherite2",
+      "item/armor/equip_netherite3",
+      "item/armor/equip_netherite4"
+    ],
+    "subtitle": "subtitles.item.armor.equip_netherite"
+  }
 }

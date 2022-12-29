@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/structure_block",
+	"overrides": [
+	  {
+		"predicate": {
+		  "custom_model_data": 8360000
+		},
+		"model": "nucleus:item/null"
+	  }
+	]
+}
