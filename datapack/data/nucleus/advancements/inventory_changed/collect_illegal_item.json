@@ -1,7 +1,7 @@
 {
   "parent": "nucleus:root",
   "criteria": {
-    "requirement": {
+    "illegal_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -10,8 +10,24 @@
           }
         ]
       }
+    },
+    "death_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{nucleus:{id:\"death_item\"}}"
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "illegal_item",
+      "death_item"
+    ]
+  ],
   "rewards": {
     "function": "nucleus:item/clear_illegal_item"
   }

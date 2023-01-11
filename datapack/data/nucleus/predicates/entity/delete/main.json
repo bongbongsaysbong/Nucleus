@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:entity/delete/animating"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:entity/delete/spawn"
+      }
+    ]
+  }
+  

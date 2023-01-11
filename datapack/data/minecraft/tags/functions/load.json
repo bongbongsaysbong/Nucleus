@@ -2,6 +2,7 @@
  "values":[
    "nucleus:technical/load",
    "#nucleus:scheduled/technical/second_clock",
-   "#nucleus:scheduled/technical/ten_second_clock"
+   "#nucleus:scheduled/technical/ten_second_clock",
+   {"id": "smithed.prevent_aggression:impl/v0.1.0/technical/load", "required": false}
   ]
 }

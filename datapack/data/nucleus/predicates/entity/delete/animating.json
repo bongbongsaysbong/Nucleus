@@ -1,0 +1,30 @@
+[
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Tags:[\"nucleus.entity.spawn\"]}"
+        }
+      }
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"nucleus.entity.despawn\"]}"
+          }
+        }
+      },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"nucleus.entity.animating\"]}"
+      }
+    }
+  ]
+  
