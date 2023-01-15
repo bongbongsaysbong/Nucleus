@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "tag": "nucleus:nucleus_base",
+        "nbt": "{nucleus:{render:1b}}"
+      }
+    }
+  }
+}

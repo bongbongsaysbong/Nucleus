@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "tag": "nucleus:nucleus_base",
+        "nbt": "{nucleus:{render:1b}}"
+      }
+    }
+  }
+}

@@ -25,7 +25,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.arthropod_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.arthropod_damage\"]}"
         }
       }
     },
@@ -53,7 +53,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.arthropod_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.arthropod_damage\"]}"
         }
       }
     },
@@ -81,7 +81,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.arthropod_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.arthropod_damage\"]}"
         }
       }
     },
@@ -109,7 +109,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.arthropod_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.arthropod_damage\"]}"
         }
       }
     },
@@ -137,7 +137,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.arthropod_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.arthropod_damage\"]}"
         }
       }
     }

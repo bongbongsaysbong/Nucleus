@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "nucleus:item/shield"
+    "function": "nucleus:item/shield/main"
   }
 }

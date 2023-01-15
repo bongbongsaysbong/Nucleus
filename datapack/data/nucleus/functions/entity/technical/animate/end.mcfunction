@@ -1,7 +1,7 @@
 # Initiate
-tag @s[tag=!nucleus.entity.despawn] remove nucleus.entity.animating
-execute if entity @s[tag=nucleus.entity.despawn] run function nucleus:entity/technical/animate/delete
-tag @s remove nucleus.entity.spawn
+tag @s[tag=!nucleus.animating.despawn] remove nucleus.animating
+execute if entity @s[tag=nucleus.animating.despawn] run function nucleus:entity/technical/animate/delete
+tag @s remove nucleus.animating.spawn
 
 # NBT
 scoreboard players reset @s nucleus.frames

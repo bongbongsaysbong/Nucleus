@@ -1,7 +1,7 @@
 # Initiate
 execute store result score @s nucleus.frames run data get entity @s ArmorItems[3].tag.nucleus.custom_model_data.anim.despawn_frames
-tag @s add nucleus.entity.despawn
-tag @s add nucleus.entity.animating
+tag @s add nucleus.animating.despawn
+tag @s add nucleus.animating
 function nucleus:entity/technical/animate
 
 # NBT

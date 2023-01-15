@@ -25,7 +25,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.smite_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
         }
       }
     },
@@ -53,7 +53,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.smite_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
         }
       }
     },
@@ -81,7 +81,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.smite_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
         }
       }
     },
@@ -109,7 +109,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.smite_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
         }
       }
     },
@@ -137,7 +137,7 @@
         },
         "entity": {
           "type": "#nucleus:preset/can_take_damage/mobs",
-          "nbt": "{Tags:[\"nucleus.entity.smite_damage\"]}"
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
         }
       }
     }

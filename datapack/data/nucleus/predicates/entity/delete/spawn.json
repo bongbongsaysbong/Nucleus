@@ -6,14 +6,14 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Tags:[\"nucleus.entity.spawn\"]}"
+          "nbt": "{Tags:[\"nucleus.animating.spawn\"]}"
         }
       },
       {
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Tags:[\"nucleus.entity.despawn\"]}"
+          "nbt": "{Tags:[\"nucleus.animating.despawn\"]}"
         }
       }
     ]
@@ -24,7 +24,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"nucleus.entity.animating\"]}"
+        "nbt": "{Tags:[\"nucleus.animating\"]}"
       }
     }
   }

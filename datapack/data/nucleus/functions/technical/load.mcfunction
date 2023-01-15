@@ -22,4 +22,4 @@ scoreboard players set #24000 nucleus.dummy 24000
 
 # Initialise
 scoreboard players set #nucleus.installed nucleus.dummy 1
-execute unless data storage nucleus:storage root.version{major:0,minor:1,semiver:3} run function nucleus:technical/first_load/main
+execute unless data storage nucleus:storage root.version{major:0,minor:1,semiver:4} run function nucleus:technical/first_load/main

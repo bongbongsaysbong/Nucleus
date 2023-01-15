@@ -1,1 +1,1 @@
-tag @s add nucleus.processed.entity
+tag @s add nucleus.processed
