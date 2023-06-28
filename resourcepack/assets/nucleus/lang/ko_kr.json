@@ -1,0 +1,16 @@
+{
+  "item.minecraft.knowledge_book": "§f조합 결과물",
+
+  "pack.nucleus": "Nucleus",
+  "pack.nucleus.addition.gamerules": "게임 규칙",
+  "pack.nucleus.addition.commands": "명령어",
+  "pack.nucleus.addition.wiki": "위키",
+
+  "menu.nucleus.install": "%s v%s 성공적으로 설치 되었습니다\n%s\n\n설치된 데이터팩:",
+  "menu.nucleus.install.tip": "%s를 사용해 이 메뉴를 다시 켤 수 있습니다",
+  "menu.nucleus.return": "돌아가기",
+
+  "pack.nucleus.additions.1": "- %s v%s (%s)",
+  "pack.nucleus.additions.2": "- %s v%s (%s | %s)",
+  "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "items": [
+              "minecraft:leather_leggings",
+              "minecraft:diamond_leggings",
+              "minecraft:netherite_leggings"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"nucleus.equip.has_leggings\"]}"
+    }
+  }
+]

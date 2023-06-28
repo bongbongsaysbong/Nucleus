@@ -1,13 +1,42 @@
-{
-  "condition": "minecraft:alternative",
-  "terms": [
-    {
-      "condition": "minecraft:reference",
-      "name": "nucleus:entity/moving/slow_falling"
-    },
-    {
-      "condition": "minecraft:reference",
-      "name": "nucleus:entity/moving/no_slow_falling"
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"nucleus.no_movement\"]}"
+      }
     }
-  ]
-}
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"nucleus.animating\"]}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:reference",
+      "name": "nucleus:entity/in_vehicle"
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:entity/moving/slow_falling"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:entity/moving/no_slow_falling"
+      }
+    ]
+  }
+]

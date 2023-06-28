@@ -1,0 +1,62 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "picked_up_by_entity": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "#nucleus:preset/wears_equipment"
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_helmet",
+            "minecraft:leather_chestplate",
+            "minecraft:leather_leggings",
+            "minecraft:leather_boots",
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_helmet",
+            "minecraft:netherite_chestplate",
+            "minecraft:netherite_leggings",
+            "minecraft:netherite_boots"
+          ]
+        }
+      }
+    },
+    "used_on_armor_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet",
+            "minecraft:leather_chestplate",
+            "minecraft:leather_leggings",
+            "minecraft:leather_boots",
+            "minecraft:diamond_helmet",
+            "minecraft:diamond_chestplate",
+            "minecraft:diamond_leggings",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_helmet",
+            "minecraft:netherite_chestplate",
+            "minecraft:netherite_leggings",
+            "minecraft:netherite_boots"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:armor_stand"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_on_armor_stand",
+      "picked_up_by_entity"
+    ]
+  ],
+  "rewards": {
+    "function": "nucleus:item/equip_armor/entity/main"
+  }
+}

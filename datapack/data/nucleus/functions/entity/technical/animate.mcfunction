@@ -10,6 +10,6 @@ scoreboard players operation #temp nucleus.dummy %= @s nucleus.frames
 scoreboard players operation #sum nucleus.dummy += #temp nucleus.dummy
 
 #Update Data
-execute if entity @s[tag=nucleus.trader_entity] store result entity @s HandItems[0].tag.CustomPotionColor int 1 run scoreboard players get #sum nucleus.dummy
+execute if entity @s[tag=nucleus.trader_entity] run function nucleus:entity/technical/animate/trader_entity
 execute if entity @s[tag=nucleus.zombie_entity] store result entity @s ArmorItems[3].tag.CustomPotionColor int 1 run scoreboard players get #sum nucleus.dummy
-scoreboard players operation @s nucleus.potion_colour = #sum nucleus.dummy
+execute if entity @s[tag=nucleus.display_entity] store result entity @s item.tag.CustomPotionColor int 1 run scoreboard players get #sum nucleus.dummy

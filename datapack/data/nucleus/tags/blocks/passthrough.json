@@ -63,6 +63,10 @@
     "minecraft:crimson_roots",
     "minecraft:warped_roots",
     "minecraft:nether_sprouts",
-    "minecraft:nether_wart"
+    "minecraft:nether_wart",
+    "minecraft:torchflower",
+    "minecraft:torchflower_crop",
+    "minecraft:pitcher_plant",
+    "minecraft:pitcher_crop"
   ]
 }

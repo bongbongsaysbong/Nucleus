@@ -1,0 +1,51 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:brewing_stand"
+            ],
+            "nbt": "{Items:[{Slot:0b,id:\"minecraft:potion\",tag:{nucleus:{potion:{can_splash:1b}}}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:brewing_stand"
+            ],
+            "nbt": "{Items:[{Slot:1b,id:\"minecraft:potion\",tag:{nucleus:{potion:{can_splash:1b}}}}]}"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:brewing_stand"
+            ],
+            "nbt": "{Items:[{Slot:2b,id:\"minecraft:potion\",tag:{nucleus:{potion:{can_splash:1b}}}}]}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:brewing_stand"
+        ],
+        "nbt": "{Items:[{Slot:3b,id:\"minecraft:gunpowder\"}]}"
+      }
+    }
+  }
+]

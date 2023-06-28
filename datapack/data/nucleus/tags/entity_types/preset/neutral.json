@@ -6,6 +6,9 @@
     "minecraft:bee",
     "minecraft:polar_bear",
     "minecraft:villager",
-    "#nucleus:preset/piglins"
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:llama",
+    "minecraft:trader_llama"
   ]
 }

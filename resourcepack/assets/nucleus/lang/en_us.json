@@ -2,8 +2,15 @@
   "item.minecraft.knowledge_book": "§fRecipe Output",
 
   "pack.nucleus": "Nucleus",
-  "pack.nucleus.install": "%s v%s installed successfully\n\nInstalled Packs:",
-  "pack.nucleus.addition": "- %s v%s (%s | %s)",
   "pack.nucleus.addition.gamerules": "Gamerules",
-  "pack.nucleus.addition.wiki": "Wiki"
+  "pack.nucleus.addition.commands": "Commands",
+  "pack.nucleus.addition.wiki": "Wiki",
+
+  "menu.nucleus.install": "%s v%s installed successfully\n%s\n\nInstalled datapacks:",
+  "menu.nucleus.install.tip": "You can return to this menu with %s",
+  "menu.nucleus.return": "Return",
+
+  "pack.nucleus.additions.1": "- %s v%s (%s)",
+  "pack.nucleus.additions.2": "- %s v%s (%s | %s)",
+  "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)"
 }

@@ -1,0 +1,45 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_base"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_corrupt"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_enhance"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_splash"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_linger"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "nucleus:block/brewing_stand/input_extend"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:brewing_stand"
+          ],
+          "nbt": "{Fuel:0b}"
+        }
+      }
+    }
+  }
+]

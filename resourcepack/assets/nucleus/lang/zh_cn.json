@@ -1,9 +1,16 @@
 {
-  "item.minecraft.knowledge_book": "§f配方输出",
+  "item.minecraft.knowledge_book": "§f配方制作",
 
-  "pack.nucleus": "Nucleus",
-  "pack.nucleus.install": "%s v%s 安装成功\n\n安装包:",
-  "pack.nucleus.addition": "- %s v%s (%s | %s)",
-  "pack.nucleus.addition.gamerules": "游戏规则",
-  "pack.nucleus.addition.wiki": "Wiki"
+  "pack.nucleus": "细胞核",
+  "pack.nucleus.addition.gamerules": "规则",
+  "pack.nucleus.addition.commands": "指令",
+  "pack.nucleus.addition.wiki": "Wiki",
+
+  "menu.nucleus.install": "%s v%s 成功安装\n%s\n\n已安装数据包:",
+  "menu.nucleus.install.tip": "你可以用%s返回到这个菜单",
+  "menu.nucleus.return": "返回",
+
+  "pack.nucleus.additions.1": "- %s v%s (%s)",
+  "pack.nucleus.additions.2": "- %s v%s (%s | %s)",
+  "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)"
 }

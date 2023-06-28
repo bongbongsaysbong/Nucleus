@@ -1,0 +1,16 @@
+execute if predicate nucleus:block/light_level/0 run scoreboard players set #light_level nucleus.dummy 0
+execute if predicate nucleus:block/light_level/1 run scoreboard players set #light_level nucleus.dummy 1
+execute if predicate nucleus:block/light_level/2 run scoreboard players set #light_level nucleus.dummy 2
+execute if predicate nucleus:block/light_level/3 run scoreboard players set #light_level nucleus.dummy 3
+execute if predicate nucleus:block/light_level/4 run scoreboard players set #light_level nucleus.dummy 4
+execute if predicate nucleus:block/light_level/5 run scoreboard players set #light_level nucleus.dummy 5
+execute if predicate nucleus:block/light_level/6 run scoreboard players set #light_level nucleus.dummy 6
+execute if predicate nucleus:block/light_level/7 run scoreboard players set #light_level nucleus.dummy 7
+execute if predicate nucleus:block/light_level/8 run scoreboard players set #light_level nucleus.dummy 8
+execute if predicate nucleus:block/light_level/9 run scoreboard players set #light_level nucleus.dummy 9
+execute if predicate nucleus:block/light_level/10 run scoreboard players set #light_level nucleus.dummy 10
+execute if predicate nucleus:block/light_level/11 run scoreboard players set #light_level nucleus.dummy 11
+execute if predicate nucleus:block/light_level/12 run scoreboard players set #light_level nucleus.dummy 12
+execute if predicate nucleus:block/light_level/13 run scoreboard players set #light_level nucleus.dummy 13
+execute if predicate nucleus:block/light_level/14 run scoreboard players set #light_level nucleus.dummy 14
+execute if predicate nucleus:block/light_level/15 run scoreboard players set #light_level nucleus.dummy 15

@@ -7,7 +7,6 @@
     "#minecraft:corals",
     "#minecraft:wall_corals",
     "#minecraft:crops",
-    "#minecraft:doors",
     "#minecraft:fences",
     "#minecraft:fence_gates",
     "#minecraft:fire",
@@ -102,7 +101,6 @@
     "minecraft:slime_block",
     "minecraft:ender_chest",
     "minecraft:lily_pad",
-    "minecraft:iron_bars",
     "minecraft:end_rod",
     "minecraft:cobweb",
     "minecraft:brewing_stand",
@@ -138,6 +136,10 @@
     "minecraft:chorus_plant",
     "minecraft:sculk_vein",
     "minecraft:mangrove_roots",
-    "minecraft:frogspawn"
+    "minecraft:frogspawn",
+    "minecraft:torchflower",
+    "minecraft:torchflower_crop",
+    "minecraft:pitcher_plant",
+    "minecraft:pitcher_crop"
   ]
 }

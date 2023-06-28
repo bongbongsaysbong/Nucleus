@@ -117,6 +117,12 @@
     "minecraft:zombie",
     "minecraft:zombie_horse",
     "minecraft:zombie_villager",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    "minecraft:item_display",
+    "minecraft:block_display",
+    "minecraft:text_display",
+    "minecraft:interaction",
+    "minecraft:camel",
+    "minecraft:sniffer"
   ]
 }

@@ -1,6 +1,6 @@
 [
   {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
       {
         "condition": "minecraft:entity_properties",
@@ -10,7 +10,8 @@
             "mainhand": {
               "items": [
                 "minecraft:warped_fungus_on_a_stick"
-              ]
+              ],
+              "nbt": "{nucleus:{prevent_striders:1b}}"
             }
           }
         }
@@ -23,7 +24,8 @@
             "offhand": {
               "items": [
                 "minecraft:warped_fungus_on_a_stick"
-              ]
+              ],
+              "nbt": "{nucleus:{prevent_striders:1b}}"
             }
           }
         }

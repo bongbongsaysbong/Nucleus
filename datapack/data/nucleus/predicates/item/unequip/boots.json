@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": [
+              "minecraft:leather_boots",
+              "minecraft:diamond_boots",
+              "minecraft:netherite_boots"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"nucleus.equip.has_boots\"]}"
+    }
+  }
+]

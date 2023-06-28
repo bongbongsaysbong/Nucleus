@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:item/equip/helmet"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:item/equip/chestplate"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:item/equip/leggings"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "nucleus:item/equip/boots"
+    }
+  ]
+}

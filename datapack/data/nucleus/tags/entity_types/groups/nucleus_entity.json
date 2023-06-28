@@ -1,0 +1,7 @@
+{
+    "values":[
+        "#nucleus:scheduled/tick",
+        "#nucleus:scheduled/second_clock",
+        "#nucleus:scheduled/ten_second_clock"
+    ]
+}

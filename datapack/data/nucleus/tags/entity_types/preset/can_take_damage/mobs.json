@@ -54,6 +54,7 @@
     "minecraft:ocelot",
     "minecraft:wolf",
     "minecraft:donkey",
+    "minecraft:hoglin",
     "minecraft:horse",
     "minecraft:mooshroom",
     "minecraft:mule",
@@ -72,6 +73,12 @@
     "minecraft:goat",
     "minecraft:villager",
     "minecraft:creeper",
-    "minecraft:fox"
+    "minecraft:fox",
+    "minecraft:bat",
+    "minecraft:bee",
+    "minecraft:pufferfish",
+    "minecraft:dolphin",
+    "minecraft:camel",
+    "minecraft:sniffer"
   ]
 }

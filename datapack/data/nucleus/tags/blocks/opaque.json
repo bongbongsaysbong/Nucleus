@@ -318,6 +318,24 @@
 	  "minecraft:packed_mud",
 	  "minecraft:reinforced_deepslate",
 	  "minecraft:sculk",
-	  "minecraft:sculk_catalyst"
+	  "minecraft:sculk_catalyst",
+	  "minecraft:jack_o_lantern",
+	  "minecraft:glowstone",
+	  "minecraft:sea_lantern",
+	  "minecraft:furnace",
+	  "minecraft:blast_furnace",
+	  "minecraft:smoker",
+	  "minecraft:bamboo_block",
+	  "minecraft:stripped_bamboo_block",
+	  "minecraft:bamboo_planks",
+	  "minecraft:bamboo_mosaic",
+	  "minecraft:cherry_log",
+	  "minecraft:cherry_wood",
+	  "minecraft:stripped_cherry_log",
+	  "minecraft:stripped_cherry_wood",
+	  "minecraft:cherry_planks",
+	  "minecraft:suspicious_sand",
+	  "minecraft:suspicious_gravel",
+	  "minecraft:chiseled_bookshelf"
 	]
 }

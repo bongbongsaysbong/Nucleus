@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "items": [
+              "minecraft:leather_helmet",
+              "minecraft:diamond_helmet",
+              "minecraft:netherite_helmet"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Tags:[\"nucleus.equip.has_helmet\"]}"
+    }
+  }
+]

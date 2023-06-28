@@ -1,0 +1,23 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{tag:{nucleus:{block:{placed_block:1b}}}}]}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nucleus:block/placement/scan"
+  }
+}

@@ -30,6 +30,7 @@
     "minecraft:redstone_wall_torch",
     "minecraft:scaffolding",
     "minecraft:frogspawn",
-    "minecraft:sculk_vein"
+    "minecraft:sculk_vein",
+    {"id": "#minecraft:all_hanging_signs", "required": false}
   ]
 }
