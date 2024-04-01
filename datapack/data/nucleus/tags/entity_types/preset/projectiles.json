@@ -1,10 +1,21 @@
 {
   "values": [
-    "minecraft:snowball",
     "minecraft:arrow",
-    "minecraft:egg",
-    "minecraft:ender_pearl",
     "minecraft:spectral_arrow",
-    "minecraft:trident"
+    "minecraft:potion",
+    "minecraft:snowball",
+    "minecraft:egg",
+    "minecraft:small_fireball",
+    "minecraft:fireball",
+    "minecraft:dragon_fireball",
+    "minecraft:tnt",
+    "minecraft:ender_pearl",
+    "minecraft:trident",
+    "minecraft:experience_bottle",
+    "minecraft:shulker_bullet",
+    "minecraft:llama_spit",
+    "minecraft:firework_rocket",
+    "minecraft:wither_skull",
+    {"id": "minecraft:wind_charge", "required": false}
   ]
 }

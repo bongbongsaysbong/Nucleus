@@ -1,7 +1,13 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "nbt": "{Item:{tag:{nucleus:{illegal_item:1b}}}}"
-  }
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item",
+        "nbt": "{Item:{tag:{nucleus:{illegal_item:1b}}}}"
+      }
+    }
+  ]
 }

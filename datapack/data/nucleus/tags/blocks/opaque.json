@@ -336,6 +336,25 @@
 	  "minecraft:cherry_planks",
 	  "minecraft:suspicious_sand",
 	  "minecraft:suspicious_gravel",
-	  "minecraft:chiseled_bookshelf"
+	  "minecraft:chiseled_bookshelf",
+	  {"id": "minecraft:crafter", "required": false},
+	  {"id": "minecraft:chiseled_copper", "required": false},
+	  {"id": "minecraft:oxidized_chiseled_copper", "required": false},
+	  {"id": "minecraft:weathered_chiseled_copper", "required": false},
+	  {"id": "minecraft:exposed_chiseled_copper", "required": false},
+	  {"id": "minecraft:waxed_chiseled_copper", "required": false},
+	  {"id": "minecraft:waxed_oxidized_chiseled_copper", "required": false},
+	  {"id": "minecraft:waxed_weathered_chiseled_copper", "required": false},
+	  {"id": "minecraft:waxed_exposed_chiseled_copper", "required": false},
+	  {"id": "minecraft:copper_bulb", "required": false},
+	  {"id": "minecraft:oxidized_copper_bulb", "required": false},
+	  {"id": "minecraft:exposed_copper_bulb", "required": false},
+	  {"id": "minecraft:weathered_copper_bulb", "required": false},
+	  {"id": "minecraft:waxed_copper_bulb", "required": false},
+	  {"id": "minecraft:waxed_oxidized_copper_bulb", "required": false},
+	  {"id": "minecraft:waxed_exposed_copper_bulb", "required": false},
+	  {"id": "minecraft:waxed_weathered_copper_bulb", "required": false},
+	  {"id": "minecraft:tuff_bricks", "required": false},
+	  {"id": "minecraft:chiseled_tuff", "required": false}
 	]
 }

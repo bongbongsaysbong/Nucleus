@@ -34,9 +34,9 @@
     "minecraft:ender_dragon",
     "minecraft:wither",
     "minecraft:cave_spider",
-    "minecraft:enderman",
     "minecraft:piglin",
     "minecraft:spider",
-    "minecraft:zombified_piglin"
+    "minecraft:zombified_piglin",
+    {"id": "minecraft:breeze", "required": false}
   ]
 }

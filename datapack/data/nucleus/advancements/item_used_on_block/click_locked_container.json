@@ -1,0 +1,37 @@
+{
+  "parent": "nucleus:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "nucleus:entity/sneaking_with_item"
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "nucleus:containers"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nucleus:block/click_locked_container/main"
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

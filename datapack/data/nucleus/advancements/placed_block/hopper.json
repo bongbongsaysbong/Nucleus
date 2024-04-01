@@ -20,5 +20,10 @@
   },
   "rewards": {
     "function": "nucleus:block/hopper_updating/advancement"
-  }
+  },
+  "requirements": [
+    [
+      "place_hopper"
+    ]
+  ]
 }

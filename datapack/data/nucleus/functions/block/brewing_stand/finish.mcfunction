@@ -8,9 +8,9 @@ execute if data storage nucleus:storage root.temp.item{id:"minecraft:glowstone_d
 execute if data storage nucleus:storage root.temp.item{id:"minecraft:gunpowder"} run function nucleus:block/brewing_stand/finish/input_splash
 execute if data storage nucleus:storage root.temp.item{id:"minecraft:redstone"} run function nucleus:block/brewing_stand/finish/input_extend
 execute if data storage nucleus:storage root.temp.item{id:"minecraft:dragon_breath"} run function nucleus:block/brewing_stand/finish/input_linger
-kill @e[type=armor_stand,tag=nucleus.potion_holder]
+kill @e[type=minecraft:armor_stand,tag=nucleus.potion_holder]
 
 data modify block ~ ~ ~ BrewTime set value 0s
 scoreboard players reset @s nucleus.dummy
 item modify block ~ ~ ~ container.3 nucleus:reduce_count/1
-playsound minecraft:block.brewing_stand.brew block @a
+playsound minecraft:block.brewing_stand.brew block @a[distance=..16]

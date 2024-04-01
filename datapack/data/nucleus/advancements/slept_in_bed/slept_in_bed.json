@@ -7,5 +7,10 @@
   },
   "rewards": {
     "function": "nucleus:entity/player/sleep/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

@@ -18,9 +18,24 @@
         },
         "damage": {
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_projectile": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              }
+            ]
           }
         },
         "entity": {
@@ -42,13 +57,6 @@
                 }
               ]
             }
-          }
-        },
-        "damage": {
-          "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_projectile": false
           }
         },
         "entity": {
@@ -74,9 +82,24 @@
         },
         "damage": {
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_projectile": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              }
+            ]
           }
         },
         "entity": {
@@ -102,9 +125,24 @@
         },
         "damage": {
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_projectile": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              }
+            ]
           }
         },
         "entity": {
@@ -130,9 +168,67 @@
         },
         "damage": {
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_projectile": false
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              }
+            ]
+          }
+        },
+        "entity": {
+          "type": "#nucleus:preset/can_take_damage/mobs",
+          "nbt": "{Tags:[\"nucleus.smite_damage\"]}"
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:smite",
+                  "levels": 6
+                }
+              ]
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_drowning",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              }
+            ]
           }
         },
         "entity": {
@@ -148,10 +244,11 @@
       "2",
       "3",
       "4",
-      "5"
+      "5",
+      "6"
     ]
   ],
   "rewards": {
-    "function": "nucleus:entity/technical/smite/as_player"
+    "function": "nucleus:entity/technical/hurt/smite_damage/as_player"
   }
 }

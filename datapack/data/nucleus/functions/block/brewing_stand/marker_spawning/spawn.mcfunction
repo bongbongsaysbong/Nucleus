@@ -1,1 +1,1 @@
-execute align xyz unless entity @e[dx=0,type=marker,tag=nucleus.brewing_stand_marker] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["nucleus.entity","nucleus.brewing_stand_marker","nucleus.block","smithed.block","smithed.entity","smithed.strict"]}
+execute align xyz unless entity @e[dx=0,type=minecraft:marker,tag=nucleus.brewing_stand_marker] run summon marker ~0.5 ~0.5 ~0.5 {Tags:["nucleus.entity","nucleus.brewing_stand_marker","nucleus.block","smithed.block","smithed.entity","smithed.strict"]}

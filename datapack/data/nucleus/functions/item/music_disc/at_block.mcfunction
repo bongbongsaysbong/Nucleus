@@ -4,4 +4,5 @@ execute if data storage nucleus:storage root.temp{hand_slot:1} run item replace 
 setblock ~ ~ ~ jukebox[has_record=true]
 data modify block ~ ~ ~ RecordItem set from storage nucleus:storage root.temp.item
 summon marker ~ ~ ~ {Tags:["nucleus.entity","nucleus.music_disc_marker","nucleus.block","smithed.block","smithed.entity","smithed.strict"]}
-function #nucleus:event/music_disc/play
+function nucleus:item/music_disc/macro/play with storage nucleus:storage root.temp.item.tag.nucleus.music_disc
+

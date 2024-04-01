@@ -16,6 +16,11 @@
       }
     }
   },
+  "requirements": [
+    [
+      "die"
+    ]
+  ],
   "rewards": {
     "function": "nucleus:entity/player/death"
   }

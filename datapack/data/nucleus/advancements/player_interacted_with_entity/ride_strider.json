@@ -21,5 +21,10 @@
   },
   "rewards": {
     "function": "nucleus:item/prevent_strider/ride_strider"
-  }
+  },
+  "requirements": [
+    [
+      "click_strider"
+    ]
+  ]
 }

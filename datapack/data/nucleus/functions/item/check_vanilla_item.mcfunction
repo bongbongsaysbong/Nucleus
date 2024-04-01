@@ -8,6 +8,7 @@ data remove storage nucleus:storage root.temp.compare_item.tag.Unbreakable
 data remove storage nucleus:storage root.temp.compare_item.tag.RepairCost
 data remove storage nucleus:storage root.temp.compare_item.tag.display
 data remove storage nucleus:storage root.temp.compare_item.tag.Damage
+data remove storage nucleus:storage root.temp.compare_item.tag.StoredEnchantments
 data remove storage nucleus:storage root.temp.compare_item.tag.Enchantments
 data remove storage nucleus:storage root.temp.compare_item.tag.AttributeModifiers
 data remove storage nucleus:storage root.temp.compare_item.tag.map
@@ -21,6 +22,7 @@ data remove storage nucleus:storage root.temp.compare_item.tag.Potion
 data remove storage nucleus:storage root.temp.compare_item.tag.CustomPotionColor
 data remove storage nucleus:storage root.temp.compare_item.tag.Trim
 data remove storage nucleus:storage root.temp.compare_item.tag.instrument
+data remove storage nucleus:storage root.temp.compare_item.tag.nss
 
 execute if data storage nucleus:storage root.temp.compare_item.tag.nucleus{vanilla_item:1b} run scoreboard players set #bypass nucleus.dummy 1
 execute store success score #check nucleus.dummy if data storage nucleus:storage root.temp.compare_item.tag run data modify storage nucleus:storage root.temp.compare_item.tag set value {}

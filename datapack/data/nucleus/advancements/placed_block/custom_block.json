@@ -19,5 +19,10 @@
   },
   "rewards": {
     "function": "nucleus:block/placement/scan"
-  }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
 }

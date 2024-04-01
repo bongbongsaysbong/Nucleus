@@ -25,5 +25,10 @@
   },
   "rewards": {
     "function": "nucleus:entity/technical/prevent_glowing/main"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

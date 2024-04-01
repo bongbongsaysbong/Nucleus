@@ -21,5 +21,10 @@
   },
   "rewards": {
     "function": "nucleus:block/brewing_stand/marker_spawning/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

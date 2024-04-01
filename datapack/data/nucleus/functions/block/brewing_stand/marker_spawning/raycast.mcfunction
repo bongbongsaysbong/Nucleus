@@ -1,6 +1,4 @@
-############################################################
-# Makes a raycast function
-############################################################
+execute if block ^ ^ ^0.01 minecraft:brewing_stand positioned ^ ^ ^0.01 align xyz run return run function nucleus:block/brewing_stand/marker_spawning/spawn
 
-execute if block ^ ^ ^0.01 minecraft:brewing_stand positioned ^ ^ ^0.01 align xyz run function nucleus:block/brewing_stand/marker_spawning/spawn
-execute if entity @s[distance=..7] unless block ^ ^ ^0.01 minecraft:brewing_stand positioned ^ ^ ^0.01 run function nucleus:block/brewing_stand/marker_spawning/raycast
+scoreboard players remove #raycast nucleus.dummy 1
+execute if score #raycast nucleus.dummy matches 1.. positioned ^ ^ ^0.01 run function nucleus:block/brewing_stand/marker_spawning/raycast

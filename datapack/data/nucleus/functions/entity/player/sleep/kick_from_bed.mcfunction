@@ -1,2 +1,4 @@
 tp @s ~ ~0.01 ~
-title @s actionbar {"translate":"block.minecraft.bed.not_safe"}
+
+data modify storage nucleus:storage root.temp.actionbar set value {freeze:30,priority:1,json:'{"translate":"block.minecraft.bed.not_safe","color":"white"}'}
+function nucleus:entity/player/actionbar/message

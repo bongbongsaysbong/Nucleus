@@ -5,6 +5,7 @@
   "pack.nucleus.addition.gamerules": "Gamerules",
   "pack.nucleus.addition.commands": "Commands",
   "pack.nucleus.addition.wiki": "Wiki",
+  "pack.nucleus.addition.settings": "Personal Settings",
 
   "menu.nucleus.install": "%s v%s installed successfully\n%s\n\nInstalled datapacks:",
   "menu.nucleus.install.tip": "You can return to this menu with %s",
@@ -12,5 +13,11 @@
 
   "pack.nucleus.additions.1": "- %s v%s (%s)",
   "pack.nucleus.additions.2": "- %s v%s (%s | %s)",
-  "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)"
+  "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)",
+
+  "item.nucleus.soulbound": "Soulbound",
+
+  "dimension.minecraft.overworld": "Overworld",
+  "dimension.minecraft.the_nether": "The Nether",
+  "dimension.minecraft.the_end": "The End"
 }

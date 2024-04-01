@@ -123,6 +123,9 @@
     "minecraft:text_display",
     "minecraft:interaction",
     "minecraft:camel",
-    "minecraft:sniffer"
+    "minecraft:sniffer",
+    {"id": "minecraft:breeze", "required": false},
+    {"id": "minecraft:armadillo", "required": false},
+    {"id": "minecraft:wind_charge", "required": false}
   ]
 }

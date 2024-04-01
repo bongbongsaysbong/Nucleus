@@ -21,5 +21,10 @@
   },
   "rewards": {
     "function": "nucleus:block/barrel/raycast_start"
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

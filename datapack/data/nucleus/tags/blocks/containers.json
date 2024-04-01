@@ -10,6 +10,7 @@
     "minecraft:furnace",
     "minecraft:blast_furnace",
     "minecraft:smoker",
-    "minecraft:chiseled_bookshelf"
+    "minecraft:chiseled_bookshelf",
+    {"id": "minecraft:crafter", "required": false}
   ]
 }

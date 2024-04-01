@@ -5,5 +5,5 @@ tag @s remove nucleus.animating.spawn
 
 # NBT
 scoreboard players reset @s nucleus.frames
-data modify entity @s Invulnerable set value 0b
+data modify entity @s[tag=!nucleus.needs_invulnerability] Invulnerable set value 0b
 data modify entity @s NoAI set value 0b
