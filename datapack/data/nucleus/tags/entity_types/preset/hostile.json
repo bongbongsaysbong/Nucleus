@@ -36,7 +36,6 @@
     "minecraft:cave_spider",
     "minecraft:piglin",
     "minecraft:spider",
-    "minecraft:zombified_piglin",
     {"id": "minecraft:breeze", "required": false}
   ]
 }

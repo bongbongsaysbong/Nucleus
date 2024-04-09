@@ -10,12 +10,21 @@
   "menu.nucleus.install": "%s v%s 成功安装\n%s\n\n已安装数据包:",
   "menu.nucleus.install.tip": "你可以用%s返回到这个菜单",
   "menu.nucleus.return": "返回",
+  "settings.nucleus.title": "设置",
+  "settings.nucleus.gamerules": "规则",
+  "settings.nucleus.items": "获得物品",
+  "settings.nucleus.summon": "生成生物",
+  "settings.nucleus.true": "开启",
+	"settings.nucleus.false": "关闭",
+	"settings.nucleus.default": "默认: %s",
+	"settings.nucleus.reset": "重置为默认值",
 
   "pack.nucleus.additions.1": "- %s v%s (%s)",
   "pack.nucleus.additions.2": "- %s v%s (%s | %s)",
   "pack.nucleus.additions.3": "- %s v%s (%s | %s | %s)",
 
   "item.nucleus.soulbound": "灵魂出窍",
+  "item.nucleus.when_eaten": "吃掉时:",
 
   "dimension.minecraft.overworld": "主世界",
   "dimension.minecraft.the_nether": "下界",
